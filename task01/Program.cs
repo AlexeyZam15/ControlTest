@@ -32,7 +32,7 @@ string[] NewStringArrayFromOldByElementStringLengthCondition(string[] arr, int E
     int index1 = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        if (arr[i].Length <= ElementStringLength) arr1[index1++]=arr[i];
+        if (arr[i].Length <= ElementStringLength) arr1[index1++] = arr[i];
     }
     return arr1;
 }
